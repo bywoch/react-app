@@ -1,7 +1,10 @@
+/* index.js는 입구 여러가지 전역적인 설정이 들어간 상태이다.*/
+/* react는 사용자 정의 태그를 만드는 기술이다 */
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App'; // "."의 의미는 현재 디렉토리를 의미한다 (App.js)
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
